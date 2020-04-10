@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(24, 22, 22);
+}
+
+.square {
+    width: 30%;
+    background-color: blue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+
+}
+
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#pickMessage {
+    color: rgb(255, 255, 255);
+}
