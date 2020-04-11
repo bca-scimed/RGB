@@ -1,5 +1,7 @@
 body {
     background-color: rgb(24, 22, 22);
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .square {
@@ -8,19 +10,94 @@ body {
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 20%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
 
 }
 
 #container {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 20px auto;
+   
 }
 
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
+    background-color: rgb(57, 163, 196);
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+    line-height: 1.1;
 }
 
-#pickMessage {
-    color: rgb(255, 255, 255);
+#bar {
+    background-color: white;
+    height: 40px;
+    text-align: center;
+}
+
+#bar span {
+    font-weight: 800;
+    color: black;
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    font-size: inherit;
+    letter-spacing: 1.5px;  
+}
+
+.selected {
+    color: white;
+    background-color: rgb(57, 163, 196);
+}
+
+#rgbDisplay {
+    font-size: larger;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 800;
+    color: rgb(57, 163, 196);
+    font-size: inherit;
+    letter-spacing: 1.2px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(57, 163, 196);
+}
+
+div h4 {
+    width: auto;
+    color: white;
+    text-align: center;
+    padding-top: 33rem;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    letter-spacing: 1.1px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(57, 163, 196);;
+    background-color: rgb(24, 22, 22);
 }
